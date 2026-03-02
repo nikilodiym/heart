@@ -30,7 +30,7 @@ function resize() {
 resize();
 window.addEventListener("resize", resize);
 
-const phrase = "I LOVE YOU";
+const phrase = "I LOVE YOU, VIKUSYA!";
 const total = 55;
 let angle = 0;
 
@@ -46,8 +46,8 @@ function heart(t) {
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    let scale = Math.min(canvas.width, canvas.height) / 50; // менший масштаб
-    let fontSize = Math.min(canvas.width, canvas.height) / 28; // менший текст
+    let scale = Math.min(canvas.width, canvas.height) / 50; 
+    let fontSize = Math.min(canvas.width, canvas.height) / 28;
 
     ctx.fillStyle = "hotpink";
     ctx.font = "bold " + fontSize + "px Arial";
